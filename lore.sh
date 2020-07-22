@@ -7,6 +7,9 @@
 
 set -e
 choices=$(ls data/)
+if [[ "$?" -eq 0 ]]; then
+	echo $choices
+fi
 
 for choice in $choices ; do
 	if [[ "$1" == "$choice" ]]; then
