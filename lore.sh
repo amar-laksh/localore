@@ -1,9 +1,9 @@
 #!/bin/bash
 # File              : lore.sh
-# Author            : Amar Lakshya <amar.lakshya@xaviers.edu.in>
+# Author            : Amar Lakshya <amar.lakshya@protonmail.com>
 # Date              : 22.07.2020
 # Last Modified Date: 22.07.2020
-# Last Modified By  : Amar Lakshya <amar.lakshya@xaviers.edu.in>
+# Last Modified By  : Amar Lakshya <amar.lakshya@protonmail.com>
 
 set -e
 choices=$(ls data/)
